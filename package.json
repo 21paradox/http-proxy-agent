@@ -1,18 +1,13 @@
 {
-  "name": "proxy11",
+  "name": "21paradox-webapp",
   "version": "1.0.0",
+  "author": "shiwenzhe",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "filternet": "0.0.2",
-    "http-proxy": "^1.9.0",
-    "proxima": "^0.4.11",
-    "proxy": "^0.2.3",
-    "sni": "0.0.1"
+    "express": "^4.14.0",
+    "proxy": "^0.2.4"
   }
 }
